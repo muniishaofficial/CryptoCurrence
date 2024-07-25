@@ -1,0 +1,81 @@
+/* src/components/Dashboard.css */
+
+.dashboard {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #e0d6e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ccc;
+}
+
+.dashboard h2 {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+
+}
+
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.balance h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.add-transaction-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-transaction-button:hover {
+  background-color: #0056b3;
+}
+
+.transactions {
+  margin-top: 20px;
+}
+
+.transactions table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions th, .transactions td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.transactions th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.transactions td {
+  color: #555;
+}
